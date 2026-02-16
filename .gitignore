@@ -1,0 +1,10 @@
+credentials.json
+token.json
+linkedin_session.json
+whatsapp_session*
+*.env
+Secrets/
+.env
+*.pyc
+__pycache__/
+linkedin_real_post.py
