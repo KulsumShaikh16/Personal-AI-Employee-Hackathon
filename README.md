@@ -16,8 +16,8 @@ A local-first, agent-driven Personal AI Employee that proactively manages Gmail,
    ```
    pip install requests google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client playwright
    ```
-2. Set up Gmail API credentials (follow instructions in GMAIL_CREDENTIALS_SETUP.md)
-3. Run the system:
+2. Place Gmail `credentials.json` in `Secrets/` folder
+3. Run watchers:
    - For Gmail watcher: `python check_gmail.py`
    - For WhatsApp watcher: `python whatsapp_watcher.py` (scan QR code when prompted)
    - For LinkedIn posting: `python linkedin_real_post.py`
