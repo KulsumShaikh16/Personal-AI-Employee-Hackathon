@@ -2,7 +2,7 @@
 type: email
 from: Shop <noreply@shop.app>
 subject: Sign in to Shop
-received: 2026-02-14 04:39:11
+received: 2026-02-17 04:50:38
 priority: high
 status: pending
 ---

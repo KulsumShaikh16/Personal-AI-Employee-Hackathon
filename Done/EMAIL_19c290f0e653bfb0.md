@@ -2,7 +2,7 @@
 type: email
 from: Team Redpanda <serverless@redpanda.com>
 subject: Redpanda Serverless is GA: Private networking & metrics are here 🚀
-received: 2026-02-14 04:39:59
+received: 2026-02-17 04:50:39
 priority: high
 status: pending
 ---

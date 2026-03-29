@@ -41,4 +41,3 @@ Run the test suite to verify all components:
 - `python test_credentials_format.py`
 - `python test_gmail_auth.py`
 - `python test_whatsapp_watcher.py`
-

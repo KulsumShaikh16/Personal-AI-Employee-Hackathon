@@ -8,3 +8,11 @@ Secrets/
 *.pyc
 __pycache__/
 linkedin_real_post.py
+node_modules/
+**/node_modules/
+.venv/
+**/venv/
+.obsidian/
+Briefings/
+Logs/
+*.md.tmp

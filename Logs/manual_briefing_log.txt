@@ -1,0 +1,4 @@
+2026-03-28 02:00:47,729 - INFO - 🚀 Starting manual CEO Briefing generation...
+2026-03-28 02:00:47,744 - INFO - CEO Briefing generated successfully: E:\E Drive Data\gemini-cli\Hackathon 0\AI_Employee_Vault\Briefings\CEO_Briefing_2026-03-28.md
+2026-03-28 02:00:47,748 - INFO - ✅ Dashboard updated with link to: E:\E Drive Data\gemini-cli\Hackathon 0\AI_Employee_Vault\Briefings\CEO_Briefing_2026-03-28.md
+2026-03-28 02:00:47,749 - INFO - ✨ Manual run complete.
