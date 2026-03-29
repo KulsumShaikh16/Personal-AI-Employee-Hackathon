@@ -1,32 +1,32 @@
 # Personal AI Employee - Gold Tier
 
-A **local-first, autonomous AI Employee** that works 24/7 like a real senior employee — managing communications, accounting, social media, and business operations with human oversight.
+A **local-first, fully autonomous AI Employee** that works 24/7 like a real senior team member — managing Gmail, WhatsApp, LinkedIn, Odoo accounting, and business intelligence with human oversight.
 
 Built for the **Personal AI Employee Hackathon 2026**.
 
 ---
 
-## 🏆 Key Features (Gold Tier)
+## 🏆 Gold Tier Achievements
 
 ### Core Automation
-- **Gmail Watcher** — Automatically processes important unread emails
-- **WhatsApp Watcher** — Detects urgent messages ("invoice", "payment", "urgent", etc.)
-- **LinkedIn Real Poster** — Generates and publishes professional posts
-- **Odoo Auto Invoice** — Automatically creates draft invoices in Odoo when "invoice" keyword is detected
-- **Human-in-the-Loop Approval** — Requires human approval for sensitive actions (payments, important emails, posts)
+- **Gmail Watcher** — Processes important unread emails
+- **WhatsApp Watcher** — Detects and processes urgent messages
+- **LinkedIn Real Poster** — Generates and publishes professional posts via API
+- **Odoo Auto Invoice** — Automatically creates draft invoices when "invoice" keyword is detected
+- **Human-in-the-Loop Approval** — Secure approval system for sensitive actions
 
-### Intelligence Layer
-- Reusable **Agent Skills** system (`Skills/` folder)
-- **Reasoning Loop** — Creates detailed Plan.md files for every new item
-- **Weekly CEO Briefing** — Automatically generates professional weekly report every Sunday night
+### Intelligence & Scheduling
+- Reusable **Agent Skills** system
+- **Reasoning Loop** with Plan.md generation
+- **Weekly CEO Briefing** — Automatic professional report every Sunday night
 
 ### Dashboard & UI
-- Modern, futuristic **Next.js Dashboard** with neon + glassmorphism theme
-- Real-time status of watchers, pending actions, approval queue, and logs
+- Modern futuristic **Next.js Dashboard** (neon + glassmorphism theme)
+- Real-time watchers status, pending actions, and logs
 
-### Security & Architecture
-- Local-first design (all data stays on your machine)
-- Sensitive files (credentials, tokens, sessions) are ignored via `.gitignore`
+### Security
+- Local-first architecture
+- All credentials and tokens ignored via `.gitignore`
 - Proper logging and error handling
 
 ---
@@ -36,17 +36,10 @@ Built for the **Personal AI Employee Hackathon 2026**.
 ### Prerequisites
 - Python 3.10+
 - Odoo Community running on `http://localhost:8069`
-- Gmail API credentials (`credentials.json`)
-- WhatsApp Web login (QR code scan once)
+- Gmail API credentials
+- WhatsApp Web login (one-time QR scan)
 
-### Installation
+### One-Command Launch
 
 ```bash
-cd AI_Employee_Vault
-
-# Install dependencies
-pip install playwright google-api-python-client watchdog requests framer-motion lucide-react
-
-# Install browsers for Playwright
-playwright install
-```
+python Scripts/start_gold_vault.py
